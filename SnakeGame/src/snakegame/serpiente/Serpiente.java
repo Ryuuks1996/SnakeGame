@@ -5,9 +5,9 @@
  */
 package snakegame.serpiente;
 
-import java.awt.Rectangle;
 import java.util.ArrayList;
-
+import com.sun.javafx.geom.Rectangle;
+import javafx.scene.control.Button;
 /**
  *
  * @author ckill
@@ -17,7 +17,13 @@ public class Serpiente {
     private double posicionY;
     private int porteSerpiente=3;
     private ArrayList<Rectangle> partesSerpiente = new ArrayList<>();
+    public static int anchoSerpiente=20;
 
+    public Serpiente(double posicionX, double posicionY) {
+        this.posicionX = posicionX;
+        this.posicionY = posicionY;
+    }
+    
     public double getPosicionX() {
         return posicionX;
     }
