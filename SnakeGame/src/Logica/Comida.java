@@ -5,8 +5,8 @@
  */
 package Logica;
 
-import com.sun.javafx.geom.Rectangle;
 import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
 
 /**
  *
@@ -15,12 +15,10 @@ import javafx.scene.paint.Color;
 public class Comida {
     private Rectangle rectangulo;
     private Punto ubicación;
-    private Color Blue;
 
-    public Comida(Rectangle rectangulo, Punto ubicación, Color Blue) {
+    public Comida(Rectangle rectangulo, Punto ubicación) {
         this.rectangulo = rectangulo;
         this.ubicación = ubicación;
-        this.Blue = Blue;
     }
 
     public Comida() {}
@@ -39,14 +37,6 @@ public class Comida {
 
     public void setUbicación(Punto ubicación) {
         this.ubicación = ubicación;
-    }
-
-    public Color getBlue() {
-        return Blue;
-    }
-
-    public void setBlue(Color Blue) {
-        this.Blue = Blue;
     }
     
     
