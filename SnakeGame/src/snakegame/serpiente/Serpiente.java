@@ -6,8 +6,9 @@
 package snakegame.serpiente;
 
 import java.util.ArrayList;
-import com.sun.javafx.geom.Rectangle;
 import javafx.scene.control.Button;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
 /**
  *
  * @author ckill
